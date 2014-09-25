@@ -25,6 +25,15 @@ context "number should know when it is" do
 		expect(fizzbuzz.divisible_by_three?(1)).to be false
 	end	
 
+	it "not divisible by five" do 
+		expect(fizzbuzz.divisible_by_five?(1)).to be false
+	end
+
+	it "not divisible by fifteen" do 
+		expect(fizzbuzz.divisible_by_fifteen?(1)).to be false
+	end
+
+
 end
 
 
