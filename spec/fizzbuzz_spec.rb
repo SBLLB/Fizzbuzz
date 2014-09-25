@@ -48,6 +48,10 @@ let(:fizzbuzz) {Fizzbuzz.new}
 		it "Buzz if number is divisible by five" do 
 			expect(fizzbuzz.play(5)).to eq("Buzz")
 		end
+
+		it "FizzBuzz when number is divisible by fifteen" do 
+			expect(fizzbuzz.play(15)).to eq("FizzBuzz")
+		end
 	end
 
 
