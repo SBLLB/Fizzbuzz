@@ -1,8 +1,8 @@
 FizzBuzz
 ==========
 
-Kata completed in week 2 Maker's Academy.
-------------------------------------------
+Kata completed in week 2 at Maker's Academy.
+---------------------------------------------
 
 Further developments to consider... 
 
