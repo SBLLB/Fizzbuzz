@@ -21,7 +21,9 @@ end
 
 context "number should know when it is" do 
 
-
+	it "not divisible by three" do 
+		expect(fizzbuzz.divisible_by_three?(1)).to be false
+	end	
 
 end
 
