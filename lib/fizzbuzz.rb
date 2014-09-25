@@ -14,4 +14,8 @@ class Fizzbuzz
 		number % 15 == 0
 	end
 
+	def play(number)
+			number
+		end 
+
 end
