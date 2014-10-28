@@ -21,4 +21,23 @@ describe 'Fizzbuzz' do
 
 	end
 
+	context 'should know when a number is NOT' do 
+
+		it 'divisible by three' do 
+			fizzbuzz = Fizzbuzz.new
+			expect(fizzbuzz.is_divisible_by_three?(1)).to equal(false)
+		end
+
+		it 'divisible by five' do 
+			fizzbuzz = Fizzbuzz.new
+			expect(fizzbuzz.is_divisible_by_five?(1)).to equal(false)
+		end
+
+		it 'divisivle by fifteen' do 
+			fizzbuzz = Fizzbuzz.new
+			expect(fizzbuzz.is_divisible_by_fifteen?(1)).to equal(false)
+		end
+
+	end
+
 end
