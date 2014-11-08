@@ -13,6 +13,10 @@ describe 'Fizzbuzz' do
 		it 'divisible by five' do 
 			expect(fizzbuzz.divisible_by_five?(5)).to equal(true)
 		end 
+
+		it 'divisible by fifteen' do 
+			expect(fizzbuzz.divisible_by_fifteen?(15)).to equal(true)
+		end 
 	end 
 
 	let(:fizzbuzz) {Fizzbuzz.new}
@@ -24,6 +28,10 @@ describe 'Fizzbuzz' do
 
 		it 'divisible by five' do 
 			expect(fizzbuzz.divisible_by_five?(1)).to equal(false)
+		end 
+
+		it 'divisible by fifteen' do 
+			expect(fizzbuzz.divisible_by_fifteen?(1)).to equal(false)
 		end 
 	end 
 
