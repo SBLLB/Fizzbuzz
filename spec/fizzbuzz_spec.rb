@@ -45,6 +45,10 @@ describe 'Fizzbuzz' do
 			expect(fizzbuzz.play(5)).to eq("Buzz")
 		end
 
+		it 'Fizzbuzz instead of multiples of fifteen' do 
+			expect(fizzbuzz.play(15)).to eq("Fizzbuzz")
+		end 
+
 
 	end
 
