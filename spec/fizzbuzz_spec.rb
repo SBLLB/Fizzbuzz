@@ -49,7 +49,9 @@ describe 'Fizzbuzz' do
 			expect(fizzbuzz.play(15)).to eq("Fizzbuzz")
 		end 
 
-
+		it 'the number itself when not divisible by 3, 5 or 15' do 
+			expect(fizzbuzz.play(1)).to eq(1)
+		end
 	end
 
 end 
