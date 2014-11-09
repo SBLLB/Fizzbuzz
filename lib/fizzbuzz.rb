@@ -15,4 +15,9 @@ class Fizzbuzz
 	def divisible_by?(number, divisor)
 		number % divisor == 0
 	end
+
+	def play(number)
+		return "Fizz"
+	end
+
 end
