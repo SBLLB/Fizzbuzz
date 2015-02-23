@@ -48,7 +48,11 @@ describe 'Fizzbuzz' do
     it 'FizzBuzz instead of multiples of fifteen' do 
       expect(fizzbuzz.play(15)).to eq("FizzBuzz")
     end
-    
+
+
+    it 'the number if not divisible by three, five or fifteen' do 
+      expect(fizzbuzz.play(1)).to eq(1)
+    end
   end
 
 end 
