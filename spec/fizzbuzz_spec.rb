@@ -35,4 +35,12 @@ describe 'Fizzbuzz' do
 
 	end 
 
+	context 'should print' do
+
+    it 'Fizz instead of multiples of three' do 
+      expect(fizzbuzz.play(3)).to eq("Fizz")
+    end
+
+  end
+
 end 

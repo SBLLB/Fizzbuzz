@@ -16,4 +16,8 @@ class Fizzbuzz
 		number % divisor == 0 
 	end
 
+	def play(number)
+		return "Fizz"
+	end
+
 end
