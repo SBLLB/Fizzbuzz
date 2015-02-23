@@ -17,7 +17,7 @@ class Fizzbuzz
 	end
 
 	def play(number)
-		return "Fizz"
+		return "Fizz" if divisible_by_three?(number)
 	end
 
 end
