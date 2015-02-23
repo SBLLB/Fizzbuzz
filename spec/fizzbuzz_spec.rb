@@ -40,10 +40,15 @@ describe 'Fizzbuzz' do
     it 'Fizz instead of multiples of three' do 
       expect(fizzbuzz.play(3)).to eq("Fizz")
     end
-     it 'Buzz instead of multiples of five' do 
+    
+    it 'Buzz instead of multiples of five' do 
       expect(fizzbuzz.play(5)).to eq("Buzz")
     end
-
+    
+    it 'FizzBuzz instead of multiples of fifteen' do 
+      expect(fizzbuzz.play(15)).to eq("FizzBuzz")
+    end
+    
   end
 
 end 
