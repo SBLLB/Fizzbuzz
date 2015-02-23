@@ -24,3 +24,7 @@ class Fizzbuzz
 	end
 
 end
+
+
+game = Fizzbuzz.new
+(1..20).to_a.each {|number| `say #{game.play(number)}`}
