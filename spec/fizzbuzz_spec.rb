@@ -46,5 +46,9 @@ describe 'Fizzbizz' do
     it 'FizzBuzz when a divisible by fifteen' do 
       expect(fizzbuzz.play(15)).to eq("FizzBuzz")
     end
+
+    it 'the number when not divisible by three, five or fifteen' do 
+      expect(fizzbuzz.play(1)).to eq(1)
+    end
   end
 end 
