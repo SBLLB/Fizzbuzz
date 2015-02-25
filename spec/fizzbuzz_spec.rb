@@ -34,4 +34,17 @@ describe 'Fizzbizz' do
     end
   end
 
+  context 'should print' do
+
+    it 'Fizz when a divisible by three' do 
+      expect(fizzbuzz.play(3)).to eq("Fizz")
+    end
+    it 'Fizz when a divisible by five' do 
+      expect(fizzbuzz.play(5)).to eq("Buzz")
+    end
+
+    it 'FizzBuzz when a divisible by fifteen' do 
+      expect(fizzbuzz.play(15)).to eq("FizzBuzz")
+    end
+  end
 end 
